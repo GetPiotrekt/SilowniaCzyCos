@@ -1,9 +1,25 @@
 package mainCode;
 
-import java.util.Random;
+
+import java.security.spec.ECField;
+import java.util.Scanner;
 
 public class Main {
 
+    public static Scanner scanner;
 
-    public static Random scanner;
+
+    public static void main(String[] args) {
+
+        ExerciseTypes test = new ExerciseTypes();
+
+        test.pullUps();
+
+
+
+
+    }
+
+
+
 }

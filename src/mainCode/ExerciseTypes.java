@@ -25,7 +25,7 @@ public class ExerciseTypes {
         }
     }
 
-    private void pullUps(){
+    public void pullUps(){
 
         float userWeight;
         float objectWeight=0;
@@ -37,28 +37,28 @@ public class ExerciseTypes {
         char Symbol;
         clearConsole();
         System.out.println("Podaj aktualna mase ciala: ");
-        userWeight=Main.scanner.nextFloat();
+        userWeight=scanner.nextFloat();
 
 
         for(;;){
             System.out.println("Czy chcesz dodac obciazenie? (T/N)");
             weightType=scanner.next().charAt(0);
-            if (weightType=='T'){
+            if (weightType=='T'||weightType=='t'){
                 System.out.println("Podaj mase obciazenia: ");
-                additionalWeight=Main.scanner.nextFloat();
+                additionalWeight=scanner.nextFloat();
                 clearConsole();
-                break;
+
             }
-            else if (weightType=='N'){
+            else if (weightType=='N'||weightType=='n'){
                 clearConsole();
-                break;
+
             }
             else{
                 System.out.println("Niepoprawny znak");
             }
             System.out.println(sets+" seria");
             System.out.println("Ile razy udało ci się podciągnąć?");
-            reps=Main.scanner.nextInt();
+            reps=scanner.nextInt();
             objectWeight=userWeight+additionalWeight;
             volume += (objectWeight*reps);
             System.out.println("Podciągnąłeś: "+volume+" kg");
@@ -71,19 +71,25 @@ public class ExerciseTypes {
             switch (Symbol){
                 case 'T':
                     clearConsole();
-                    break;
+
+                case 't':
+                    clearConsole();
                 case 'N':
                     clearConsole();
                     System.out.println("Koniec treningu");
                     System.exit(0);
-                    break;
+                case 'n':
+                    clearConsole();
+                    System.out.println("Koniec treningu");
+                    System.exit(0);
+
                 default:
                     System.out.println("Niepoprawny znak");
-                    break;
+
             }
 
 
-            return;
+
         }
 
 
