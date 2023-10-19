@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c5cb4e-68d5-480d-8a4a-1d8119f50364" name="Changes" comment="ass">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f0c5cb4e-68d5-480d-8a4a-1d8119f50364" name="Changes" comment="zmiany ie dziala ostatna czesc tego gowna">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mainCode/ExerciseTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainCode/ExerciseTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainCode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ZioXel"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c41ad174-a39f-42f8-a00b-2f45c37e2c6e" />
+        <option name="url" value="https://github.com/ZioXel/SilowniaCzyCos" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/mainCode/ExerciseTypes.java" root0="FORCE_HIGHLIGHTING" />
@@ -96,7 +108,8 @@
       <workItem from="1696867408417" duration="1928000" />
       <workItem from="1696938811105" duration="149000" />
       <workItem from="1696938986109" duration="841000" />
-      <workItem from="1696939848045" duration="773000" />
+      <workItem from="1696939848045" duration="850000" />
+      <workItem from="1697709517405" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="ass">
       <option name="closed" value="true" />
@@ -114,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696866099383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zmiany ie dziala ostatna czesc tego gowna">
+      <option name="closed" value="true" />
+      <created>1696940677991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696940677991</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ass" />
-    <option name="LAST_COMMIT_MESSAGE" value="ass" />
+    <MESSAGE value="zmiany ie dziala ostatna czesc tego gowna" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiany ie dziala ostatna czesc tego gowna" />
   </component>
 </project>

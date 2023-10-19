@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ExerciseTypes {
     Scanner scanner = new Scanner(System.in);
+    //To na dole nie dziala xd
     public static void clearConsole()
     {
         try
@@ -21,8 +22,9 @@ public class ExerciseTypes {
         }
         catch (final Exception e)
         {
-            //  Handle any exceptions.
+              System.out.println("Error while clearing console");
         }
+        //czyszczenie konsoli nie dziala. bo jestsmy w intellij a nie w cmd
     }
 
     public void pullUps(){
@@ -69,16 +71,10 @@ public class ExerciseTypes {
             System.out.println("Czy chcesz kontynuować? (T/N)");
             Symbol= scanner.next().charAt(0);
             switch (Symbol){
-                case 'T':
+                case 'T', 't':
                     clearConsole();
-
-                case 't':
-                    clearConsole();
-                case 'N':
-                    clearConsole();
-                    System.out.println("Koniec treningu");
-                    System.exit(0);
-                case 'n':
+                    continue;
+                case 'N', 'n':
                     clearConsole();
                     System.out.println("Koniec treningu");
                     System.exit(0);
