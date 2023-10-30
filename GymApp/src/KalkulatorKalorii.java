@@ -35,7 +35,7 @@ public class KalkulatorKalorii {
         System.out.println("Wybierz swoj poziom aktywnosci:");
         System.out.println("1. Brak aktywnosci lub siedzacy tryb zycia");
         System.out.println("2. Umiarkowana aktywnosc (cwiczenia 1-3 razy w tygodniu)");
-        System.out.println("3. Aktywnosc cwiczenia 3-5 razy w tygodniu)");
+        System.out.println("3. Aktywny (cwiczenia 3-5 razy w tygodniu)");
         System.out.println("4. Bardzo aktywny (cwiczenia codziennie)");
         System.out.println("5. Super aktywny (ciezki trening codziennie)");
         System.out.print("Wybierz numer: ");
@@ -66,7 +66,7 @@ public class KalkulatorKalorii {
                     zapotrzebowanie = bmr * 1.375; // Umiarkowana aktywność (ćwiczenia 1-3 razy w tygodniu)
                     break;
                 case 3:
-                    zapotrzebowanie = bmr * 1.55; // Aktywność (ćwiczenia 3-5 razy w tygodniu)
+                    zapotrzebowanie = bmr * 1.55; // Aktywny (ćwiczenia 3-5 razy w tygodniu)
                     break;
                 case 4:
                     zapotrzebowanie = bmr * 1.725; // Bardzo aktywny (ćwiczenia codziennie)
