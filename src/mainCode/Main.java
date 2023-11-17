@@ -1,3 +1,5 @@
+package mainCode;
+
 import java.util.Scanner;
 import java.util.Date;
 
@@ -15,26 +17,18 @@ public class Main {
             System.out.println("1. Wyciskanie sztangi na lawce plaskiej");
             System.out.println("2. Podciaganie na drazku");
             System.out.println("3. Martwy ciag");
-            System.out.println("4. Pokaż wyniki");
+            System.out.println("4. Pokaz wyniki");
             System.out.println("5. Koniec treningu\n");
             System.out.print("Twoj wybor: ");
 
             int wybor = scanner.nextInt();
 
             switch (wybor) {
-                case 1:
-                    Cwiczenia.lawkaPlaska();
-                    break;
-                case 2:
-                    Cwiczenia.podciaganie();
-                    break;
-                case 3:
-                    Cwiczenia.martwyCiag();
-                    break;
-                case 4:
-                    Zapisywanie.wyswietlZawartosc();
-                    break;
-                case 5:
+                case 1 -> Cwiczenia.lawkaPlaska();
+                case 2 -> Cwiczenia.podciaganie();
+                case 3 -> Cwiczenia.martwyCiag();
+                case 4 -> Zapisywanie.wyswietlZawartosc();
+                case 5 -> {
                     Date endTime = new Date(); // Zakończenie pomiaru czasu
                     long totalTime = endTime.getTime() - startTime.getTime();
                     System.out.println("Czas treningu: " + Zapisywanie.formatujCzas(totalTime));
@@ -43,10 +37,8 @@ public class Main {
 
                     System.out.println("Zakonczono program.");
                     aktualneCwiczenie = 4;
-                    break;
-                default:
-                    System.out.println("Niepoprawny wybor. Wybierz ponownie.");
-                    break;
+                }
+                default -> System.out.println("Niepoprawny wybor. Wybierz ponownie.");
             }
         }
 
